@@ -1,0 +1,1 @@
+python train.py --workers 8 --device 0 --batch-size 8 --data data/coco.yaml --img 1280 720 --cfg cfg/training/yolov7.yaml --weights yolov7_training.pt --name yolov7-trafficsignrecognition --hyp data/hyp.scratch.custom.yaml --epochs 50

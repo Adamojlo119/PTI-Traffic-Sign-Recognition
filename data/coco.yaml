@@ -1,0 +1,107 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# download command/URL (optional)
+# download: bash ./scripts/get_coco.sh
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: dataset/train
+val: dataset/val
+test: dataset/test
+
+# number of classes
+nc: 92
+
+# class names
+names:
+  0: Niebezpieczny zakręt w prawo
+  1: Niebezpieczny zakręt w lewo
+  2: Niebezpieczne zakręty — pierwszy w prawo
+  3: Niebezpieczne zakręty — pierwszy w lewo
+  4: Skrzyżowanie z drogą podporządkowaną występującą po obu stronach
+  5: Skrzyżowanie z drogą podporządkowaną występującą po prawej stronie
+  6: Skrzyżowanie z drogą podporządkowaną występującą po lewej stronie
+  7: Wlot drogi jednokierunkowej z prawej strony
+  8: Wlot drogi jednokierunkowej z lewej strony
+  9: Ustąp pierwszeństwa
+  10: Skrzyżowanie o ruchu okrężnym
+  11: Nierówna droga
+  12: Próg zwalniający
+  13: Zwężenie jezdni — dwustronne
+  14: Roboty na drodze
+  15: Śliska jezdnia
+  16: Przejście dla pieszych
+  17: Dzieci
+  18: Zwierzęta dzikie
+  19: Odcinek jezdni o ruchu dwukierunkowym
+  20: Tramwaj
+  21: Rowerzyści
+  22: Sygnały świetlne
+  23: Inne niebezpieczeństwo
+  24: Oszronienie jezdni
+  25: Zakaz ruchu w obu kierunkach
+  26: Zakaz wjazdu
+  27: Zakaz wjazdu samochodów ciężarowych
+  28: Zakaz wjazdu pojazdów innych niż samochodowe
+  29: Zakaz wjazdu pojazdów zaprzęgowych
+  30: Zakaz wjazdu rowerów
+  31: Zakaz wjazdu pojazdów o rzeczywistej masie całkowitej ponad …t
+  32: Stop
+  33: Zakaz skręcania w lewo
+  34: Zakaz skręcania w prawo
+  35: Zakaz wyprzedzania
+  36: Zakaz wyprzedzania przez samochody ciężarowe
+  37: Koniec zakazu wyprzedzania
+  38: Ograniczenie prędkości
+  39: Koniec ograniczenia prędkości
+  40: Zakaz zatrzymywania się
+  41: Zakaz ruchu pieszych
+  42: Koniec zakazów
+  43: Strefa ograniczonej prędkości
+  44: Koniec strefy ograniczonej prędkości
+  45: Nakaz jazdy w prawo za znakiem
+  46: Nakaz jazdy w lewo za znakiem
+  47: Nakaz jazdy prosto
+  48: Nakaz jazdy prosto lub w prawo
+  49: Nakaz jazdy prosto lub w lewo
+  50: Nakaz jazdy z prawej strony znaku
+  51: Nakaz jazdy z lewej strony znaku
+  52: Ruch okrężny
+  53: Droga dla rowerów
+  54: Koniec drogi dla rowerów
+  55: Koniec drogi dla pieszych i rowerów
+  56: Droga dla pieszych i rowerów
+  57: Droga dla pieszych
+  58: Droga z pierwszeństwem
+  59: Koniec drogi z pierwszeństwem
+  60: Droga jednokierunkowa
+  61: Droga bez przejazdu
+  62: Wjazd na drogę bez przejazdu
+  63: Przejście dla pieszych
+  64: Przejście dla pieszych i przejazd dla rowerzystów
+  65: Droga ekspresowa
+  66: Koniec drogi ekspresowej
+  67: Autostrada
+  68: Koniec pasa ruchu
+  69: Przystanek autobusowy
+  70: Parking
+  71: Parking zadaszony
+  72: Szpital
+  73: Stacja paliwowa
+  74: Stacja paliwowa tylko z gazem do napędu pojazdów
+  75: Telefon
+  76: Stacja obsługi technicznej
+  77: Myjnia
+  78: Toaleta publiczna
+  79: Bufet lub kawiarnia
+  80: Restauracja
+  81: Hotel (motel)
+  82: Strefa zamieszkania
+  83: Koniec strefy zamieszkania
+  84: Obszar zabudowany
+  85: Koniec obszaru zabudowanego
+  86: Automatyczna kontrola prędkości
+  87: Strefa ruchu
+  88: Koniec strefy ruchu
+  89: Zbiorcza tablica informacyjna
+  90: Słupek wskaźnikowy
+  91: Krzyż św. Andrzeja
